@@ -1,0 +1,12 @@
+- op: replace
+  path: /metadata/name
+  value: component-a-name
+- op: replace
+  path: /spec/componentName
+  value: component-a-name
+- op: replace
+  path: /spec/source/git/url
+  value: https://myvcs.com/myorg/component-a
+- op: replace
+  path: /spec/source/git/dockerfileUrl
+  value: "Dockerfile"
