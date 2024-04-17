@@ -5,6 +5,6 @@ resources:
   - ../../../../base # Path to base component
 
 patches:
-  - path: component-c-override.yaml # Path to Override File
+  - path: rh-trex-override.yaml # Path to Override File
     target:
       kind: Component
